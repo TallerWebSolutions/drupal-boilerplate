@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ *
+ * Adds a template suggestion for nodes when
+ * presented in the front page.
+ */
+function trt_theme_suggestions_node_alter(&$suggestions, $vars) {
+  if (\Drupal::service('path.matcher')->isFrontPage()) {
+    $suggestions[] = 'node__front_page';
+  }
+}
