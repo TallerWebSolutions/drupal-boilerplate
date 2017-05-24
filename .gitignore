@@ -19,7 +19,6 @@ web/sites/*/files
 vendor
 drush/contrib
 web/core
-web/modules/contrib
 web/libraries
 web/themes/contrib
 web/profiles/contrib
