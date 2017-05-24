@@ -1,0 +1,12 @@
+uuid: b563d23a-9d53-42b7-8284-7aac624d04bd
+langcode: en
+status: true
+dependencies: {  }
+id: pedir_livro
+label: 'Pedir Livro'
+recipients:
+  - rafael@taller.net.br
+reply: ''
+weight: 0
+message: 'Muito obrigado por enviar seu pedido. Responderemos em breve.'
+redirect: /livros

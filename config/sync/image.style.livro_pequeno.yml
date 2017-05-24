@@ -1,0 +1,14 @@
+uuid: ad40cbca-d33b-4ba9-86be-723fbd554d3a
+langcode: en
+status: true
+dependencies: {  }
+name: livro_pequeno
+label: 'Livro pequeno'
+effects:
+  2d8f985e-c077-46f6-bff0-4faec5e5e4e6:
+    uuid: 2d8f985e-c077-46f6-bff0-4faec5e5e4e6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 120
+      height: 200

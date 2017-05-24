@@ -1,0 +1,14 @@
+uuid: f3bb70ec-5e69-48bf-89e5-80ee4bdac439
+name: 'Drupal 8 training'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /livros
+admin_compact_mode: false
+weight_select_max: 100
+langcode: pt-br
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,72 @@
+uuid: 69cd8e05-c28c-4f2e-9d2a-3add0d0413ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.pedir_livro
+    - field.field.contact_message.pedir_livro.field_category
+    - field.field.contact_message.pedir_livro.field_cor
+    - field.field.contact_message.pedir_livro.field_nome
+  module:
+    - options
+id: contact_message.pedir_livro.default
+targetEntityType: contact_message
+bundle: pedir_livro
+mode: default
+content:
+  field_category:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_cor:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_nome:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  mail:
+    weight: -2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  name:
+    weight: -3
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  subject:
+    weight: -1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: 3a1eb9ab-45d8-42a7-858c-a55ed20233db
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.livro
+id: node.livro
+target_entity_type_id: node
+target_bundle: livro
+default_langcode: site_default
+language_alterable: false

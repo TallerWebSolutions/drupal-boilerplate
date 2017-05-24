@@ -1,0 +1,24 @@
+uuid: 4053f9dc-b1a3-4983-b069-64a54ce8a0b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.categorias
+  module:
+    - system
+  theme:
+    - bartik
+id: categorias
+theme: bartik
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:categorias'
+settings:
+  id: 'system_menu_block:categorias'
+  label: Categorias
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

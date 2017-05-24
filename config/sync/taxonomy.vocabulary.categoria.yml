@@ -1,0 +1,9 @@
+uuid: aa5a023e-2247-4d50-9aee-2428d4f58b0b
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Categoria
+vid: categoria
+description: 'Categoria de livros'
+hierarchy: 0
+weight: 0

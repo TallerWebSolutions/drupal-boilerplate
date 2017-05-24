@@ -1,0 +1,16 @@
+tips:
+  views-main:
+    body: 'Ver ou editar as configurações.'
+  views-ui-displays:
+    body: 'Uma exibição é um modo de mostrar os resultados, exemplo, como uma página ou um bloco. Uma view pode conter múltiplas exibições, que são listadas aqui. A exibição ativa está destacada.'
+  views-ui-format:
+    label: 'Formato de saída'
+    body: 'Defina como exibir os resultados. Por exemplo, escolha <em>Conteúdo</em> para exibir cada item completamente, usando suas respectivas configurações de visualização. Ou escolha <em>Campos</em>, que permite a você exibir apenas alguns campos específicos para cada resultado. Formatos adicionais podem ser incluídos através de módulos que <em>estendam</em> as funcionalidades básicas do Drupal.'
+  views-ui-fields:
+    label: Campos
+  views-ui-sorts:
+    label: 'Critérios de ordenação'
+  views-ui-sorts-operations:
+    label: 'Ações de ordenação'
+  views-ui-preview:
+    label: Pré-visualizar

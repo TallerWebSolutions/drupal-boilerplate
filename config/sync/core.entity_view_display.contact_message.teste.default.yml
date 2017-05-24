@@ -1,0 +1,30 @@
+uuid: 9cb8a555-12c0-4fa7-a025-1c4868193dc7
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.teste
+    - field.field.contact_message.teste.field_nome
+id: contact_message.teste.default
+targetEntityType: contact_message
+bundle: teste
+mode: default
+content:
+  field_nome:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

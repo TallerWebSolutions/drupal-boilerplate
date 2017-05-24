@@ -1,0 +1,11 @@
+uuid: 4f122b09-96c1-442d-9c7f-0b958fd840dd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.autor
+id: node.autor
+target_entity_type_id: node
+target_bundle: autor
+default_langcode: site_default
+language_alterable: false

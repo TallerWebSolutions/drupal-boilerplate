@@ -1,0 +1,22 @@
+uuid: 935b1edd-9d60-4957-9275-48b5b962403c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: alias_de_livros
+label: 'Alias de livros'
+type: 'canonical_entities:node'
+pattern: 'meus-livros/[node:field_categoria]/[node:title]'
+selection_criteria:
+  0371ef78-5894-4359-a2a2-21ebe350ab46:
+    id: node_type
+    bundles:
+      livro: livro
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 0371ef78-5894-4359-a2a2-21ebe350ab46
+selection_logic: and
+weight: -5
+relationships: {  }

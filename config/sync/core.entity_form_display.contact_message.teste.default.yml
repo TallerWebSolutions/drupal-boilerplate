@@ -1,0 +1,55 @@
+uuid: f042e4a8-91da-4ef0-b7f6-752e621938b5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.teste
+    - field.field.contact_message.teste.field_nome
+id: contact_message.teste.default
+targetEntityType: contact_message
+bundle: teste
+mode: default
+content:
+  copy:
+    weight: 50
+    region: content
+  field_nome:
+    weight: 51
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  mail:
+    weight: -40
+    region: content
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+  preview:
+    weight: 40
+    region: content
+  subject:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,28 @@
+uuid: c983cf87-8487-4823-afbb-dc18397e3894
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.pedir_livro
+    - field.storage.contact_message.field_category
+    - taxonomy.vocabulary.categoria
+id: contact_message.pedir_livro.field_category
+field_name: field_category
+entity_type: contact_message
+bundle: pedir_livro
+label: category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria: categoria
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

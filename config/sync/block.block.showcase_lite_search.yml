@@ -1,0 +1,22 @@
+uuid: f5979056-8cda-41bc-8eae-93ea78c55ac1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: VStO8y6zdIUsByV5ILgeKmduBF0Rlfe0IiJqZeDu7hA
+id: showcase_lite_search
+theme: showcase_lite
+region: sidebar_second
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Buscar
+  provider: search
+  label_display: visible
+visibility: {  }

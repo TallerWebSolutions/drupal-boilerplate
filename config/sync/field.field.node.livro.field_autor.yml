@@ -1,0 +1,28 @@
+uuid: 5ea03b2b-cada-4754-b8ed-e03db7fa260e
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor
+    - node.type.autor
+    - node.type.livro
+id: node.livro.field_autor
+field_name: field_autor
+entity_type: node
+bundle: livro
+label: Autor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      autor: autor
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

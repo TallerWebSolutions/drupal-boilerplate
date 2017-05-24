@@ -1,0 +1,30 @@
+uuid: c5ad4a55-197c-41b4-ac4b-78fc8f3db242
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_cor
+field_name: field_cor
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: red
+      label: Vermelho
+    -
+      value: yellow
+      label: Amarelo
+    -
+      value: blue
+      label: Azul
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

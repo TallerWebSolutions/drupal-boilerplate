@@ -1,0 +1,12 @@
+uuid: 121574be-42e5-4c45-911e-c9d82f014776
+langcode: pt-br
+status: true
+dependencies: {  }
+id: teste
+label: Teste
+recipients:
+  - rafael@taller.net.br
+reply: ''
+weight: 0
+message: 'Valeu por enviar'
+redirect: ''

@@ -1,0 +1,18 @@
+uuid: 2a304232-a6cb-472a-9d85-42f3a321451f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.autor
+id: node.autor.title
+field_name: title
+entity_type: node
+bundle: autor
+label: Nome
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

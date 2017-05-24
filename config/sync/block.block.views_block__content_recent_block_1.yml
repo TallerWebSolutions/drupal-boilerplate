@@ -1,0 +1,30 @@
+uuid: 86f439ec-492a-44df-8122-fb4a882066ee
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.content_recent
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__content_recent_block_1
+theme: bartik
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_block:content_recent-block_1'
+settings:
+  id: 'views_block:content_recent-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '5'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/livros"
+    negate: false
+    context_mapping: {  }

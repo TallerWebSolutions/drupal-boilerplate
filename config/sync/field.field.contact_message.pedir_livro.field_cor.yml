@@ -1,0 +1,21 @@
+uuid: 303072be-0ef8-42ff-8057-76e81802eab7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.pedir_livro
+    - field.storage.contact_message.field_cor
+  module:
+    - options
+id: contact_message.pedir_livro.field_cor
+field_name: field_cor
+entity_type: contact_message
+bundle: pedir_livro
+label: Cor
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

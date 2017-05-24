@@ -1,0 +1,8 @@
+uuid: e3e95341-0826-4631-862a-bbdb88e81f24
+langcode: zxx
+status: true
+dependencies: {  }
+id: categorias
+label: Categorias
+description: ''
+locked: false

@@ -1,0 +1,22 @@
+uuid: b965475d-156a-4109-bad8-373bc287dd73
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: alias_do_autor
+label: 'Alias do autor'
+type: 'canonical_entities:node'
+pattern: 'autor/[node:title]'
+selection_criteria:
+  a89a97d7-e083-4b5e-8416-e0500902ff46:
+    id: node_type
+    bundles:
+      autor: autor
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a89a97d7-e083-4b5e-8416-e0500902ff46
+selection_logic: and
+weight: -5
+relationships: {  }

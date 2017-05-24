@@ -1,0 +1,31 @@
+uuid: 3302eda8-ca59-47dc-8700-91457cb3d663
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b8e85d1b-0ffc-48db-9012-a91e2592989d'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: blockmyaccount
+theme: bartik
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'block_content:b8e85d1b-0ffc-48db-9012-a91e2592989d'
+settings:
+  id: 'block_content:b8e85d1b-0ffc-48db-9012-a91e2592989d'
+  label: 'Block my account'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/user/*\r\n"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,38 @@
+uuid: e5890439-6f99-42c0-bc0e-2d4c31cd549f
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.autor.body
+    - field.field.node.autor.field_foto
+    - node.type.autor
+  module:
+    - image
+    - text
+    - user
+id: node.autor.default
+targetEntityType: node
+bundle: autor
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_foto:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

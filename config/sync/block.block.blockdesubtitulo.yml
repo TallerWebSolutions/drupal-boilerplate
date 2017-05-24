@@ -1,0 +1,33 @@
+uuid: 1f24b448-970b-48dc-a6d8-646b1e906165
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f6faabb2-a65c-43c2-b735-e17ca0fd5c8e'
+  module:
+    - block_content
+    - node
+  theme:
+    - bartik
+id: blockdesubtitulo
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'block_content:f6faabb2-a65c-43c2-b735-e17ca0fd5c8e'
+settings:
+  id: 'block_content:f6faabb2-a65c-43c2-b735-e17ca0fd5c8e'
+  label: 'Block de subtitulo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

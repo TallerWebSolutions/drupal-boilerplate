@@ -1,0 +1,29 @@
+uuid: a9d75d99-bc3a-484d-8170-f8f53c16cea9
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.autor.body
+    - node.type.autor
+  module:
+    - text
+    - user
+id: node.autor.teaser
+targetEntityType: node
+bundle: autor
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

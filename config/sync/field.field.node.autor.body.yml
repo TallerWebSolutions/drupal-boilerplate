@@ -1,0 +1,22 @@
+uuid: 6fa1e39c-d439-4e1d-9ea8-bfbb4501383b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.autor
+  module:
+    - text
+id: node.autor.body
+field_name: body
+entity_type: node
+bundle: autor
+label: Biografia
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

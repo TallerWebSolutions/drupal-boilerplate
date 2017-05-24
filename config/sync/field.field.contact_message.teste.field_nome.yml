@@ -1,0 +1,19 @@
+uuid: 778a75f0-4542-4074-b385-7225bda976a5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.teste
+    - field.storage.contact_message.field_nome
+id: contact_message.teste.field_nome
+field_name: field_nome
+entity_type: contact_message
+bundle: teste
+label: Nome
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

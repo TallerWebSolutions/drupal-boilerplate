@@ -1,0 +1,29 @@
+uuid: ecbd5169-8e36-49c2-ad2a-4240ff2c9370
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - views.view.livros
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: formularioexpostolivrospage_1
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_exposed_filter_block:livros-page_1'
+settings:
+  id: 'views_exposed_filter_block:livros-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/livros"
+    negate: false
+    context_mapping: {  }
