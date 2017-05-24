@@ -5,3 +5,6 @@ description: Tema utilizado no portal do TRT
 core: 8.x
 
 base theme: bartik
+
+libraries:
+  - trt/base
