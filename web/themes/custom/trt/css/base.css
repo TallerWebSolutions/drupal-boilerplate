@@ -10,3 +10,9 @@ body {
   font-size: 3em;
   margin-top: 0;
 }
+
+.view-livros .item-list > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  width: 15em;
+}
