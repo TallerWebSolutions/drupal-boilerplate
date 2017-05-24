@@ -1,6 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i');
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+}
+
+.page-title {
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: 0;
 }
