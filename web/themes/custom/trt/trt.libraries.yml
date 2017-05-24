@@ -4,3 +4,8 @@ base:
   css:
     theme:
       css/base.css: {}
+  js:
+    js/base.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
